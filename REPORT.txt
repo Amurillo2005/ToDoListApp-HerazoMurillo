@@ -1,0 +1,50 @@
+Informe HerazoMurillo
+
+1. Pasos realizados:
+
+- Creamos el repositorio ToDoListApp - en GitHub.
+- Cada miembro creó una rama (Estudiante 1, Estudiante 2, Estudiante 3).
+- Implementamos funcionalidades y resolvimos conflictos.
+
+2. Comandos Git:
+
+- git clone <URL>: Clonar el repositorio.
+- git checkout -b estudiante1: Crear rama.
+- git add <archivo>: Añadir cambios.
+- git commit -m "mensaje": Hacer commit.
+- git push origin estudiante1: Empujar rama.
+- git merge estudiante3: Fusionar rama con conflicto.
+- git push origin --delete estudiante1: Eliminar rama. 
+
+3. Conflictos:
+
+- Conflicto en task_model.py entre is_completed y is_done.
+- Solución: Combinamos métodos, mantenimiento is_completed.
+
+4. Contribuciones:
+
+- Estudiante 1: Añadió mark_as_complete y resolvió los conflictos.
+- Estudiante 2: Añadió delete_task y actualizó README.
+
+5. Reflexiones:
+
+Aprendimos a coordinar ramas y resolver conflictos en equipo.
+
+Preguntas:
+
+- ¿Cómo se coordinaron el trabajo en equipo para evitar conflictos innecesarios?
+
+R// Se hizo una videollamada por meet para que todos los integrantes pudieran ver todo lo que se hacía.
+
+- ¿Qué aprendieron sobre la resolución de conflictos en Git?
+
+R// Aprendimos a verificar los cambios que se aceptaban para evitar errores.
+
+- ¿Por qué es importante usar Pull Requests en proyectos colaborativos?
+
+R// Los Pull Requests son importantes porque facilitan la revisión de código y mejora el aprendizaje en equipo.
+
+- ¿Cómo podría mejorarse el flujo de trabajo con herramientas como CI/CD?
+
+R// El flujo podría mejorarse con herramientas con CI/CD al ir probando los cambios que hace cada uno y así detectar errores antes de que llguen a la rama main.
+
