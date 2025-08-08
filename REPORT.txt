@@ -48,3 +48,26 @@ R// Los Pull Requests son importantes porque facilitan la revisión de código y
 
 R// El flujo podría mejorarse con herramientas con CI/CD al ir probando los cambios que hace cada uno y así detectar errores antes de que llguen a la rama main.
 
+Historial de commits:
+
+* c1258 (HEAD -> main, origin/main) Cambios finales en la rama main
+*   1b353 Merge pull request #1 from Amurillo2005/HerazoMurillo
+|\
+| | * 6874f (origin/HerazoMurillo, HerazoMurillo) Añadir informe manuscrito transcrito
+| |/
+| *   af0b2 Merge branch 'MurilloDos' into HerazoMurillo
+| |\
+| | * 33ccf (origin/MurilloDos, MurilloDos) Añadir set_done y remove_task en TaskModel
+| * |   73796 Merge remote-tracking branch 'origin/Herazo' into HerazoMurillo
+| |\ \
+| | |/
+| |/|
+| | * 6bd77 (origin/Herazo) añadir funcionalidad para eliminar tareas y actualizar README
+| |/
+|/|
+| * c4c9c (origin/Murillo, Murillo) Añadir funcionalidad para marcar tareas como completadas
+|/
+*   06525 Merge branch 'main' of https://github.com/Amurillo2005/ToDoListApp-HerazoMurillo
+|\
+| * 656df Initial commit
+* 4dfec inicializar proyecto ToDoApp
